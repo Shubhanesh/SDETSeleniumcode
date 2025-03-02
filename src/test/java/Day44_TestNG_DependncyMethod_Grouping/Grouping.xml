@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grouping Suite">
+    <test  name="Grouping Test">
+        <groups>
+            <run>
+                <include name="functional"/>
+               <!-- <exclude name="regression"/>-->
+            </run>
+        </groups>
+        <classes>
+            <class name="Day44_TestNG_DependncyMethod_Grouping.LoginTest"/>
+            <class name="Day44_TestNG_DependncyMethod_Grouping.Payment"/>
+            <class name="Day44_TestNG_DependncyMethod_Grouping.Signup"/>
+        </classes>
+    </test>
+</suite>

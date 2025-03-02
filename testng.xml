@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Shubhangi/IdeaProjects/Hellow world/SeleniumSDET/src/test/java/Day46_Listners"><classes><class name="Day46_Listners.OrangeHRM"><methods><include name="testLogo"/><include name="testURL"/></methods></class></classes></test></suite>
