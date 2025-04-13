@@ -12,14 +12,14 @@ public class HandleAlert {
         driver.manage().window().maximize();
 
         // normal alert with ok button
-        /*driver.findElement(By.xpath("//button[@onclick='jsAlert()']")).click();
+        driver.findElement(By.xpath("//button[@onclick='jsAlert()']")).click();
         Thread.sleep(5000);
         //driver.switchTo().alert().accept();
         Alert myalert=driver.switchTo().alert();// stored in variable
         System.out.println(myalert.getText());
         myalert.accept();
 
-         */
+
 
         //Confirmation Alert-ok& cancle
        /* driver.findElement(By.xpath("//button[@onclick='jsConfirm()']")).click();
